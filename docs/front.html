@@ -12,14 +12,14 @@
     <!-- Content starts here -->
     <div class="container">
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="front.html">Pirate Life</a>
+        <a class="navbar-brand active" href="front.html">Pirate Life</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
 
         <div class="collapse navbar-collapse topnav" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
+            <li class="nav-item">
               <a class="nav-link" href="index.html">Oct.18</a>
             </li>
             <li class="nav-item">
@@ -37,27 +37,40 @@
       </div>
 
     </div>
-
-    <section>
-      <div class="container">
-        <div class="row">
-
-          <div class="col-sm-4">
-            <img src="img/pirate.jpg" class="img-fluid" alt="Pirate profile">
-            <h4 class="byline">By Cat DeLaura</h4>
-            <p class="credit">Island Breeze Tribune</p>
+   
+    <div class="container accordion" id="accordionExample">
+      <div class="card">
+        <div class="card-header" id="headingOne">
+          <h2 class="mb-0">
+            <button class="btn btn-block text-left" class="captain" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              Captain's log, Oct. 18
+            </button>
+          </h2>
+        </div>
+    
+        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+          <div class="card-body">
+            <a class="Read" href="index.html">Read</a> about a typical stormy night on a pirate ship.
           </div>
-
-          <div class="col-sm-8"> 
-              <h2>It was a dark and stormy night</h2>
-              <p class="lead">Captain's log, Oct.18</p>
-              <p>Prow scuttle parrel provost Sail ho shrouds spirits boom mizzenmast yardarm. Pinnace holystone mizzenmast quarter crow's nest nipperkin grog yardarm hempen halter furl. Swab barque interloper chantey doubloon starboard grog black jack gangway rutters. Deadlights jack lad schooner scallywag dance the hempen jig carouser broadside cable strike colors. Bring a spring upon her cable holystone blow the man down spanker Shiver me timbers to go on account lookout wherry doubloon chase. Belay yo-ho-ho keelhaul squiffy black spot yardarm spyglass sheet transom heave to. Trysail Sail ho Corsair red ensign hulk smartly boom jib rum gangway. Case shot Shiver me timbers gangplank crack Jennys tea cup ballast Blimey lee snow crow's nest rutters. Fluke jib scourge of the seven seas boatswain schooner gaff booty Jack Tar transom spirits.</p>
-          </div>
-
-
         </div>
       </div>
-    </section>
+
+      <div class="card">
+        <div class="card-header" id="headingTwo">
+          <h2 class="mb-0">
+            <button class="btn btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Captain's log, Oct. 19
+            </button>
+          </h2>
+        </div>
+
+        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+          <div class="card-body">
+            <a class="Read" href="Oct19.html">Read</a> about the mighty and feared kraken.
+          </div>
+        </div>
+      </div>
+    </div>
     
     <footer>
       <p>A class project by Cat DeLaura</p>

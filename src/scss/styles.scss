@@ -6,6 +6,81 @@
 // $link-hover-color: grey;
 // $font-family-sans-serif: "Helvetica Neue";
 
+h1, h2 {
+  font-size: 1rem;
+  font-family: 'Indie Flower', cursive;
+}
+
+h5 {
+  font-family: 'Indie Flower', cursive;
+}
+
+.topnav {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 10px 12px;
+  text-decoration: none;
+  font-size: 17px;
+  border-bottom: 3px solid transparent;
+}
+
+.topnav a:hover {
+  border-bottom: 3px solid whitesmoke;
+}
+
+.topnav a.active {
+  border-bottom: 3px solid whitesmoke;
+}
+
+.jumbotron {
+  background-image: url(../img/pirate-ship.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  color: whitesmoke;
+}
+
+footer {
+  background-color: grey;
+  text-align: center;
+  margin-top: 200px;
+  margin-bottom: 30px;
+  padding: 2px;
+}
+
+.byline {
+  font-weight: bold;
+  font-size: .75rem;
+  padding-top: 20px;
+  padding-bottom: 0px;
+}
+
+.credit {
+  font-style: italic;
+  font-size: .75rem;
+  color: darkgray;
+  padding-top: 0px;
+}
+
+p.lead {
+  font-size: 1rem;
+  font-weight: bolder;
+  padding: none;
+}
+
+#carouselExampleCaptions {
+  padding-bottom: 20px;
+}
+
+.Read {
+  color: black;
+  text-decoration: underline;
+}
+
+
 // Import Bootstrap styles
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
